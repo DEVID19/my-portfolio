@@ -3,7 +3,7 @@
 Welcome to my portfolio! This website showcases my skills, projects, and experience as a frontend developer. It is built using modern web technologies with a strong focus on interactivity and animations.
 
 ## 🌐 Live Demo
-[![Portfolio](https://img.shields.io/badge/Live-Demo-blue)](https://devidbisen.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Live-Demo-blue)](https://devidbisen.vercel.app/)
 
 ## 🛠️ Technologies Used
 - **React** - For building the UI components
