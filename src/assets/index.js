@@ -26,23 +26,12 @@ import vercel from "./tech/vercel.png";
 import netlify from "./tech/netlify.png";
 import vscode from "./tech/vscode.png";
 
-import salk from "./company/salk.png";
-import salkbg from "./company/salkbg.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import codesoft from "./company/codesoft.png";
-import BharatIntern from "./company/BharatIntern.png";
+import intern_company_logo from "./company/intern_company_logo.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import metaverse from "./metaverse.png";
-import travel from "./travel.png";
-import tictactoe from "./tictactoe.png";
-import Apple from "./Apple.png";
+import Zaptra from "./Zaptra.png";
+import SpendWise from "./SpendWise.png";
 import Tenzies from "./Tenzies.png";
-import Endgame from "./Endgame.png";
 import instalogo from "./instalogo.png";
 import linkendinicon from "./linkendinicon.png";
 
@@ -68,27 +57,16 @@ export {
   tailwind,
   typescript,
   threejs,
-  salk,
-  salkbg,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
   netlify,
   nextjs,
   vercel,
   vscode,
   sass,
   metaverse,
-  travel,
-  tictactoe,
-  Apple,
+  Zaptra,
+  SpendWise,
   Tenzies,
-  Endgame,
-  codesoft,
-  BharatIntern,
   instalogo,
   linkendinicon,
+  intern_company_logo,
 };

@@ -11,24 +11,18 @@ import {
   tailwind,
   git,
   figma,
-  salk,
-  codesoft,
-  BharatIntern,
-  metaverse,
-  travel,
-  tictactoe,
-  threejs,
   nextjs,
   sass,
   github,
   vscode,
   vercel,
   netlify,
-  Apple,
+  Zaptra,
   Tenzies,
-  Endgame,
   linkendinicon,
   instalogo,
+  intern_company_logo,
+  SpendWise,
 } from "../assets";
 
 export const navLinks = [
@@ -56,15 +50,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Next JS Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Frontend Developer",
+    title: "React Developer",
     icon: backend,
   },
   {
-    title: "Backend Devloper",
+    title: "Next.js Devloper",
     icon: creator,
   },
 ];
@@ -130,29 +124,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer Intern",
-    company_name: "CodeSoft",
-    icon: codesoft,
+    title: "Frontend Devloper Intern",
+    company_name: "5TECHG LAB LLP",
+    icon: intern_company_logo,
     iconBg: "#383E56",
-    date: "Aug 2023 - Sep 2023",
+    date: "Feb 2025 - Jul 2025",
     points: [
-      "Developed and deployed web applications using modern technologies, ensuring clean and efficient code.",
-      "Completed real-world projects within deadlines, demonstrating strong problem-solving and time-management skills.",
-      "Implemented responsive designs and optimized UI for seamless user experience across devices.",
-      "Gained hands-on experience in full-cycle web development, from planning and coding to testing and deployment.",
-    ],
-  },
-  {
-    title: "web Developer Intern",
-    company_name: "Bharat Intern",
-    icon: BharatIntern,
-    iconBg: "#E6DEDD",
-    date: "Sep 2023 - Oct 2023",
-    points: [
-      "Built web applications from scratch, following best practices in modern web development.",
-      "Utilized cutting-edge technologies to develop responsive and high-performance web solutions.",
-      "Consistently met deadlines by efficiently managing tasks and ensuring timely project submissions.",
-      "Demonstrated end-to-end development skills, from planning and coding to deployment and optimization.",
+      "Developed the frontend for 5TechG Lab’s official website using React.js, Tailwind CSS, and Figma designs",
+      "Delivered a responsive trading education website for a client, independently handling all frontend development",
+      "Collaborated with backend teams to integrate APIs and ensure smooth data flow across the application",
+      "Participated in sprint planning and team discussions, implementing UI/UX improvements based on feedback",
+      "Optimized and debugged code to enhance performance, accessibility, and mobile responsiveness",
     ],
   },
 ];
@@ -189,31 +171,78 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Apple",
+    name: "Zaptra",
     description:
-      "Apple Clone is a visually stunning replica of Apple's website built with React, Three.js, and GSAP. It features smooth animations, 3D elements, and seamless interactions, delivering an immersive user experience.",
+      "Zaptra is a full-stack electronics e-commerce platform featuring user-specific authentication, cart and order tracking, and an admin dashboard for managing products, orders, and customers. Built with React, Redux Toolkit, Tailwind CSS, and powered by Appwrite, it showcases scalable architecture and secure role-based access.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Redux Toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Appwrite",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Authentication",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Full Stack",
+        color: "green-text-gradient",
+      },
     ],
-    image: Apple,
-    source_code_link: "https://github.com/DEVID19/Apple",
-    live_link: "https://apple-virid.vercel.app/",
+    image: Zaptra,
+    source_code_link: "https://github.com/DEVID19/Ecommerce.git",
+    live_link: "https://zaptra-electronics-store.vercel.app/",
+  },
+
+  {
+    name: "SpendWise",
+    description:
+      "SpendWise is a personal expense tracker with user-specific authentication, category-based inputs, and visual insights using Recharts. Built with React, Context API, and Tailwind CSS, and powered by Firebase, it offers a clean and secure interface for tracking and analyzing daily expenses.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Context API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Authentication",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Visualization ",
+        color: "green-text-gradient",
+      },
+    ],
+    image: SpendWise,
+    source_code_link: "https://github.com/DEVID19/spendwise.git",
+    live_link: "https://spendwise-delta.vercel.app/",
   },
   {
     name: "TenZies",
     description:
-      "Tenzies Game is a fun and interactive dice game built with React, featuring smooth state management and dynamic UI updates. Players roll dice, hold numbers, and aim to match all for a win.",
+      "TenZies is a simple yet engaging dice game where players roll, hold, and match all dice to win. Built using React and Tailwind CSS, it features smooth state management, real-time UI updates, and a fun user experience designed for quick and casual gameplay. The game logic is fully handled on the client side, showcasing React’s state-driven rendering and component-based architecture.",
     tags: [
       {
         name: "React",
@@ -231,28 +260,6 @@ const projects = [
     image: Tenzies,
     source_code_link: "https://github.com/DEVID19/TenZies",
     live_link: "https://ten-zies-three.vercel.app/",
-  },
-  {
-    name: "Assembly-EndGame",
-    description:
-      "Assembly Endgame is a strategic puzzle game built with React, featuring engaging mechanics and dynamic interactions. Players solve challenges by assembling pieces to complete the endgame objective.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Endgame,
-    source_code_link: "https://github.com/DEVID19/EndGame",
-    live_link: "https://end-game-neon.vercel.app/",
   },
 ];
 
