@@ -23,6 +23,11 @@ import {
   instalogo,
   intern_company_logo,
   SpendWise,
+  Spicecatch_logo,
+  Chatify,
+  nodejs,
+  mongodb,
+  expressjs,
 } from "../assets";
 
 export const navLinks = [
@@ -93,8 +98,16 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Sass",
-    icon: sass,
+    name: "Nodejs",
+    icon: nodejs,
+  },
+  {
+    name: "mongodb",
+    icon: mongodb,
+  },
+  {
+    name: "Expressjs",
+    icon: expressjs,
   },
   {
     name: "git",
@@ -112,14 +125,6 @@ const technologies = [
     name: "vscode",
     icon: vscode,
   },
-  {
-    name: "netlify",
-    icon: netlify,
-  },
-  {
-    name: "vercel",
-    icon: vercel,
-  },
 ];
 
 const experiences = [
@@ -135,6 +140,21 @@ const experiences = [
       "Collaborated with backend teams to integrate APIs and ensure smooth data flow across the application",
       "Participated in sprint planning and team discussions, implementing UI/UX improvements based on feedback",
       "Optimized and debugged code to enhance performance, accessibility, and mobile responsiveness",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    company_name: "SPICECATCH RETAIL PRIVATE LIMITED",
+    icon: Spicecatch_logo,
+    iconBg: "#383E56",
+    date: "Aug 2025 - Nov 2025",
+    points: [
+      "Built and maintained responsive and interactive web interfaces by translating design mockups into clean, scalable frontend code",
+      "Owned the end-to-end frontend workflow, including UI development, state management, and frontend logic handling",
+      "Integrated frontend applications with RESTful APIs to ensure seamless communication between frontend and backend systems",
+      "Worked closely with designers and developers in an agile environment to improve UI/UX consistency and application performance",
+      "Contributed to the company’s React Native mobile application by developing UI screens and features using Expo",
+      "Demonstrated strong problem-solving skills, teamwork, and adaptability while working across web and mobile platforms",
     ],
   },
 ];
@@ -170,6 +190,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Chatify",
+    description:
+      "Chatify is a full-stack real-time chat application offering secure user authentication, personal and group conversations, AI-powered chat assistance, and profile customization. Built with the MERN stack, Socket.io, and Redux Toolkit, it demonstrates real-time communication, scalable backend architecture, and modern state management.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Socket.io",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Full Stack",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GenAI",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: Chatify,
+    source_code_link: "https://github.com/DEVID19/chatify.git",
+    live_link: "https://chatify-nos7.onrender.com",
+  },
   {
     name: "Zaptra",
     description:
@@ -239,28 +301,28 @@ const projects = [
     source_code_link: "https://github.com/DEVID19/spendwise.git",
     live_link: "https://spendwise-delta.vercel.app/",
   },
-  {
-    name: "TenZies",
-    description:
-      "TenZies is a simple yet engaging dice game where players roll, hold, and match all dice to win. Built using React and Tailwind CSS, it features smooth state management, real-time UI updates, and a fun user experience designed for quick and casual gameplay. The game logic is fully handled on the client side, showcasing React’s state-driven rendering and component-based architecture.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Tenzies,
-    source_code_link: "https://github.com/DEVID19/TenZies",
-    live_link: "https://ten-zies-three.vercel.app/",
-  },
+  // {
+  //   name: "TenZies",
+  //   description:
+  //     "TenZies is a simple yet engaging dice game where players roll, hold, and match all dice to win. Built using React and Tailwind CSS, it features smooth state management, real-time UI updates, and a fun user experience designed for quick and casual gameplay. The game logic is fully handled on the client side, showcasing React’s state-driven rendering and component-based architecture.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Javascript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: Tenzies,
+  //   source_code_link: "https://github.com/DEVID19/TenZies",
+  //   live_link: "https://ten-zies-three.vercel.app/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

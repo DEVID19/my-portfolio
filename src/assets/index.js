@@ -25,12 +25,15 @@ import threejs from "./tech/threejs.svg";
 import vercel from "./tech/vercel.png";
 import netlify from "./tech/netlify.png";
 import vscode from "./tech/vscode.png";
+import expressjs from "./tech/expressjs.png";
 
 import intern_company_logo from "./company/intern_company_logo.png";
+import Spicecatch_logo from "./company/Spicecatch_logo.jpg";
 
 import metaverse from "./metaverse.png";
 import Zaptra from "./Zaptra.png";
 import SpendWise from "./SpendWise.png";
+import Chatify from "./Chatify.png";
 import Tenzies from "./Tenzies.png";
 import instalogo from "./instalogo.png";
 import linkendinicon from "./linkendinicon.png";
@@ -62,6 +65,7 @@ export {
   vercel,
   vscode,
   sass,
+  expressjs,
   metaverse,
   Zaptra,
   SpendWise,
@@ -69,4 +73,6 @@ export {
   instalogo,
   linkendinicon,
   intern_company_logo,
+  Spicecatch_logo,
+  Chatify,
 };
